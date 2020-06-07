@@ -1,0 +1,56 @@
+.app {
+  background-image: url("./assets/todolist.jpg");
+  background-size: cover;
+  opacity: 0.9;
+  height: 100vh;
+  padding: 30px;
+  text-align: center;
+}
+.delete {
+  background-color: red;
+}
+
+.buttons {
+  margin: 2px;
+}
+.buttons:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.todo {
+  background: #b99f7c;
+  border: solid #334e4f 1px;
+  border-radius: 5px;
+  padding: 3px;
+  margin: 2px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+.todo-list {
+  background: #5c9659;
+  border-radius: -8px;
+  border: solid whitesmoke 1px;
+  padding: 5px;
+  max-width: 350px;
+  margin: auto;
+}
